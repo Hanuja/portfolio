@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .Lessons h2{
+            margin-bottom: 40px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .Summary{
+            background: var(--second-bg-color);
+        }
+        .summary-card p{
+            background:var(--bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+        .lesson-card p{
+            background:var(--second-bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section design  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <box-icon name='menu' id="menu-icon"></box-icon>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Lessons</a>
+            <a href="index.html#portfolio">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- button section design  -->
+    <section class="Lessons" id="Lessons">
+        <h2 class="heading">CV <span>Writing</span></h2>
+
+        <div class="button-container">
+            <a href="#Summary" class="btn">Summary</a><br><br><br>
+            <a href="#learnt" class="btn">What I learned</a><br><br><br>
+        </div>
+    </section>
+
+    <!-- summary section design  -->
+    <section class="Summary" id="Summary">
+        <h2 class="heading">Summary</h2>
+        <div class="summary-card">
+            <p>
+                This course covered writing a resume. A CV should highlight your qualifications and appropriateness for a particular position. A well-written CV can help you create a good first impression, catch the attention of hiring managers and recruiters, and obtain a decent job.
+
+
+
+                <br><br>A CV that is specifically matched to the position you are going for highlights your most relevant experiences and qualifications, and by studying the organization, you can add the keywords they demand in your CV to improve your chances of getting accepted.
+
+                <br><br><span>The essential components of a CV</span>
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Personal Information 
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Professional Summary or objective
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Work Experience
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Education
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Skills
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Achievements 
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.Languages
+
+                <br><br><span>Some mistakes to avoid when making a CV</span>
+
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Spelling and grammatical errors.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Including irrelevant or outdated information.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Poor Format.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Lack of consistency in formatting.
+            </p>
+        </div>
+    </section>
+
+    <!-- learnt section design  -->
+    <section class="learnt" id="learnt">
+        <h2 class="heading"><span>Lessons Learnt</span></h2>
+        <div class="lesson-card">
+            <p>
+                This course taught me the value of creating a well-organized, visually appealing resume by avoiding common mistakes and how to write a resume that is excellent enough to get a reputable job. I also discovered how crucial it is to have feedback since it facilitates improvisation.
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by DarkFire | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Lessons"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

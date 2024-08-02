@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section design  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- <i class='bx bx-menu' ></i> -->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Lessons</a>
+            <a href="#portfolio">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello. It's me</h3>
+            <h1>HANUJA KODEESWARAN</h1>
+            <h3>And I'm a <span>Web Developer</span></h3>
+            <p>in love with coding and innovation</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/shahibdha-hilmy-36a120237/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/_s_h_m_h_/?hl=en"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/Shahibdha"><i class='bx bxl-github'></i></a>       
+            </div>
+            <a href="uploads/resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="home10.jpg" alt="">
+        </div> -->
+    </section> 
+    
+    <!-- about section design  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <h3>Software engineer</h3>
+            <p>Hello there! I'm Hanuja, a 24-year-old Software Engineering student at SLIIT Academy in my second year and second semester. Despite navigating the challenges of ADD, I've cultivated strong soft skills that complement my technical abilities.</p>
+            <p>Creating seamless user experiences with UI design is my passion. I enjoy designing aesthetically pleasing and simple-to-use interfaces that improve user engagement. In order to ensure that users find the program helpful and enjoyable to use, my objective is to close the gap between functionality and aesthetics.</p>
+            <p>In the field of software engineering, I'm dedicated to lifelong learning and development, and I'm excited to share my knowledge and inventiveness in order to make significant contributions. See my work by looking through my portfolio, and come along on this fascinating technological and innovative trip with me. .</p>
+            
+            <a href="#services" class="btn">Explore More</a>
+        </div>
+        
+    </section>
+
+    <!-- about section design  -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 1</h3>
+                <p>Introduction to professional skills</p>
+                <a href="2.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 2</h3>
+                <p>CV Writing</p>
+                <a href="2.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 3</h3>
+                <p>Portfolio Writing</p>
+                <a href="3.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 4</h3>
+                <p>Email Writing</p>
+                <a href="4.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 5</h3>
+                <p>Project Proposal Writing</p>
+                <a href="5.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 6</h3>
+                <p>Emotional Intelligence</p>
+                <a href="6.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 7</h3>
+                <p>Dining Etiquettes</p>
+                <a href="7.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Lesson 8</h3>
+                <p>Food Festival</p>
+                <a href="8.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section design  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Gallery</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box" onclick="previewImage('uploads/p.jpg')" style="max-height: 20rem; max-width: 20rem;">
+                <img src="uploads/p.jpg" alt="">
+            </div>
+            
+            </div>
+
+            <div class="image-preview" id="imagePreview">
+                <img src="uploads/p.jpg" alt="Preview Image" id="previewImage">
+                <span class="close-icon" onclick="closeImagePreview()">&times;</span>
+            </div>
+           
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by DarkFire | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

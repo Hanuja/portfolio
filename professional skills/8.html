@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .Lessons h2{
+            margin-bottom: 40px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .Summary{
+            background: var(--second-bg-color);
+        }
+        .summary-card p{
+            background:var(--bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+        .lesson-card p{
+            background:var(--second-bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section design  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <box-icon name='menu' id="menu-icon"></box-icon>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Lessons</a>
+            <a href="index.html#portfolio">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- button section design  -->
+    <section class="Lessons" id="Lessons">
+        <h2 class="heading">Food <span>Festival</span></h2>
+
+        <div class="button-container">
+            <a href="#Summary" class="btn">Summary</a><br><br><br>
+            <a href="#learnt" class="btn">What I learned</a><br><br><br>
+        </div>
+    </section>
+
+    <!-- summary section design  -->
+    <section class="Summary" id="Summary">
+        <h2 class="heading">Summary</h2>
+        <div class="summary-card">
+            <p>
+                We had to prepare a stall to sell anything of our desire and we decided to do sales on ice cream with toppings and different flavours using edible cups and spoons. We named our shop scoops and decorated it well to attract customers. We gained a considerable amount of profit and we loved what we experienced as it was something unusual for us
+            </p>
+        </div>
+    </section>
+
+    <!-- learnt section design  -->
+    <section class="learnt" id="learnt">
+        <h2 class="heading"><span>Lessons Learnt</span></h2>
+        <div class="lesson-card">
+            <p>
+                We had to work in groups of 10 and had to face different challenges along the way. Every member of our team had different visions and different ideas and, through this assignment, we learned how to communicate our ideas when working as a team without being offensive and how to accept others' ideas as well. This project helped us improve our communication skills.
+                <br><br>I was always a good follower and through this project, I learned to lead, improving my leadership skills. 
+                <br><br>By sharing work equally, bearing the cost, and enduring different stress levels we learnt teamwork.
+                <br><br>We also solved many problems, made different decisions, managed with the given time, were punctual and loved what we did.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by DarkFire | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Lessons"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

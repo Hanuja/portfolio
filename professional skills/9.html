@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .Lessons h2{
+            margin-bottom: 40px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .Summary{
+            background: var(--second-bg-color);
+        }
+        .summary-card p{
+            background:var(--bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: center;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+        .lesson-card p{
+            background:var(--second-bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: center;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section design  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <box-icon name='menu' id="menu-icon"></box-icon>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Lessons</a>
+            <a href="index.html#portfolio">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- button section design  -->
+    <section class="Lessons" id="Lessons">
+        <h2 class="heading">Interview <span>Skills</span></h2>
+
+        <div class="button-container">
+            <a href="#Summary" class="btn">Summary</a><br><br><br>
+            <a href="#learnt" class="btn">What I learned</a><br><br><br>
+            <a href="#application" class="btn">How I can apply them</a><br><br><br>
+            <a href="#tutorial" class="btn">Tutorial</a>
+        </div>
+    </section>
+
+    <!-- summary section design  -->
+    <section class="Summary" id="Summary">
+        <h2 class="heading">Summary</h2>
+        <div class="summary-card">
+            <p>Your summary text goes here. This is a brief overview of what you've learned or want to highlight.</p>
+        </div>
+    </section>
+
+    <!-- learnt section design  -->
+    <section class="learnt" id="learnt">
+        <h2 class="heading"><span>Lessons Learnt</span></h2>
+        <div class="lesson-card">
+            <p>Your summary text goes here. This is a brief overview of what you've learned or want to highlight.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by DarkFire | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Lessons"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

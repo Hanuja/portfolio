@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .Lessons h2{
+            margin-bottom: 40px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .Summary{
+            background: var(--second-bg-color);
+        }
+        .summary-card p{
+            background:var(--bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+        .lesson-card p{
+            background:var(--second-bg-color) ;
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: left;
+            border: .2rem solid var(--main-color);
+            font-size: 1.6rem;
+            margin: 2rem 0 3rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section design  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <box-icon name='menu' id="menu-icon"></box-icon>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Lessons</a>
+            <a href="index.html#portfolio">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- button section design  -->
+    <!-- <section class="Lessons" id="Lessons">
+
+        <div class="button-container">
+            <a href="#Summary" class="btn">Summary</a><br><br><br>
+            <a href="#learnt" class="btn">What I learned</a><br><br><br>
+        </div>
+    </section> -->
+
+    <!-- summary section design  -->
+    <section class="Summary" id="Summary">
+        <h2 class="heading">Portfolio <span>Writing</span></h2>
+        <h2 class="heading">Summary</h2>
+        <div class="summary-card">
+            <p>
+                Through this lesson, I learned the uses of a portfolio. It can be used for job applications, for career advancements, for educational admissions, and many more.
+                <br><br>There are different types of portfolios.
+                <br><br><span>1. Personal portfolio - </span>A collection of personal achievements, creative works, and reflections showcasing an individual's development and interests.
+                <br><br><span>2. Career/Dossier Portfolio - </span>A detailed collection of professional documents, achievements, and qualifications to support career growth and job applications
+                <br><br><span>3. Employment Portfolio  - </span>A focused collection of documents and work samples tailored to demonstrate qualifications for a specific job, used during the job search process.
+                <br><br><span>4. Assessment Portfolio  - </span>A collection of work and documents used to evaluate a student's learning, progress, and skills over time.
+                <br><br>LinkedIn, Behance, Google Sites, WordPress, and Wix are some online sources used to create portfolios.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by DarkFire | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Lessons"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
